@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "330450194507",
+    "firebase_url": "https://easy-gym-club.firebaseio.com",
+    "project_id": "easy-gym-club",
+    "storage_bucket": "easy-gym-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330450194507:android:def59625fa8d2e875d3dce",
+        "android_client_info": {
+          "package_name": "com.easygymclub.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330450194507-1cbmv0ps9htl564mhqvho9hv0775ketl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5LZ7EOZlyPMk9gcwCRjBFfqTxRjGR14o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330450194507-1cbmv0ps9htl564mhqvho9hv0775ketl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

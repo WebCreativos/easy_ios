@@ -1,0 +1,347 @@
+PODS:
+  - background_fetch (0.5.6):
+    - Flutter
+  - background_locator (0.0.1):
+    - Flutter
+  - better_player (0.0.1):
+    - Flutter
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - connectivity_for_web (0.1.0):
+    - Flutter
+  - connectivity_macos (0.0.1):
+    - Flutter
+  - countdown_flutter (0.0.1):
+    - Flutter
+  - Firebase/Core (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.9.0)
+  - Firebase/CoreOnly (6.34.0):
+    - FirebaseCore (= 6.10.4)
+  - Firebase/Messaging (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.7.1)
+  - firebase_messaging (0.0.1):
+    - Firebase/Core
+    - Firebase/Messaging
+    - Flutter
+  - FirebaseAnalytics (6.9.0):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.7)
+    - GoogleAppMeasurement (= 6.9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30906.0)
+  - FirebaseCore (6.10.4):
+    - FirebaseCoreDiagnostics (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.7.0):
+    - GoogleDataTransport (~> 7.4)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30906.0)
+  - FirebaseInstallations (1.7.0):
+    - FirebaseCore (~> 6.10)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.8.0):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+  - FirebaseMessaging (4.7.1):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstanceID (~> 4.7)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Reachability (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - Flutter (1.0.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - flutter_plugin_android_lifecycle (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - google_maps_flutter (0.0.1):
+    - Flutter
+    - GoogleMaps (< 3.10)
+  - GoogleAppMeasurement (6.9.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30906.0)
+  - GoogleDataTransport (7.5.1):
+    - nanopb (~> 1.30906.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.2)"
+  - GoogleUtilities/Reachability (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.2):
+    - GoogleUtilities/Logger
+  - image_picker (0.0.1):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - location_permissions (2.0.5):
+    - Flutter
+  - manage_calendar_events (0.0.1):
+    - Flutter
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - path_provider (0.0.1):
+    - Flutter
+  - path_provider_linux (0.0.1):
+    - Flutter
+  - path_provider_macos (0.0.1):
+    - Flutter
+  - path_provider_windows (0.0.1):
+    - Flutter
+  - pedometer (0.0.1):
+    - Flutter
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+  - PromisesObjC (1.2.10)
+  - Protobuf (3.13.0)
+  - Reachability (3.2)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - shared_preferences_linux (0.0.1):
+    - Flutter
+  - shared_preferences_macos (0.0.1):
+    - Flutter
+  - shared_preferences_web (0.0.1):
+    - Flutter
+  - shared_preferences_windows (0.0.1):
+    - Flutter
+  - soundpool (0.0.1):
+    - Flutter
+  - spotify_sdk (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - stop_watch_timer (0.0.1):
+    - Flutter
+  - url_launcher (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+  - webview_media (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - background_fetch (from `.symlinks/plugins/background_fetch/ios`)
+  - background_locator (from `.symlinks/plugins/background_locator/ios`)
+  - better_player (from `.symlinks/plugins/better_player/ios`)
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - connectivity_for_web (from `.symlinks/plugins/connectivity_for_web/ios`)
+  - connectivity_macos (from `.symlinks/plugins/connectivity_macos/ios`)
+  - countdown_flutter (from `.symlinks/plugins/countdown_flutter/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - location_permissions (from `.symlinks/plugins/location_permissions/ios`)
+  - manage_calendar_events (from `.symlinks/plugins/manage_calendar_events/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - path_provider_linux (from `.symlinks/plugins/path_provider_linux/ios`)
+  - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
+  - path_provider_windows (from `.symlinks/plugins/path_provider_windows/ios`)
+  - pedometer (from `.symlinks/plugins/pedometer/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - shared_preferences_linux (from `.symlinks/plugins/shared_preferences_linux/ios`)
+  - shared_preferences_macos (from `.symlinks/plugins/shared_preferences_macos/ios`)
+  - shared_preferences_web (from `.symlinks/plugins/shared_preferences_web/ios`)
+  - shared_preferences_windows (from `.symlinks/plugins/shared_preferences_windows/ios`)
+  - soundpool (from `.symlinks/plugins/soundpool/ios`)
+  - spotify_sdk (from `.symlinks/plugins/spotify_sdk/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - stop_watch_timer (from `.symlinks/plugins/stop_watch_timer/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+  - webview_media (from `.symlinks/plugins/webview_media/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FMDB
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - Protobuf
+    - Reachability
+
+EXTERNAL SOURCES:
+  background_fetch:
+    :path: ".symlinks/plugins/background_fetch/ios"
+  background_locator:
+    :path: ".symlinks/plugins/background_locator/ios"
+  better_player:
+    :path: ".symlinks/plugins/better_player/ios"
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  connectivity_for_web:
+    :path: ".symlinks/plugins/connectivity_for_web/ios"
+  connectivity_macos:
+    :path: ".symlinks/plugins/connectivity_macos/ios"
+  countdown_flutter:
+    :path: ".symlinks/plugins/countdown_flutter/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_plugin_android_lifecycle:
+    :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  google_maps_flutter:
+    :path: ".symlinks/plugins/google_maps_flutter/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  location_permissions:
+    :path: ".symlinks/plugins/location_permissions/ios"
+  manage_calendar_events:
+    :path: ".symlinks/plugins/manage_calendar_events/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  path_provider_linux:
+    :path: ".symlinks/plugins/path_provider_linux/ios"
+  path_provider_macos:
+    :path: ".symlinks/plugins/path_provider_macos/ios"
+  path_provider_windows:
+    :path: ".symlinks/plugins/path_provider_windows/ios"
+  pedometer:
+    :path: ".symlinks/plugins/pedometer/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  shared_preferences_linux:
+    :path: ".symlinks/plugins/shared_preferences_linux/ios"
+  shared_preferences_macos:
+    :path: ".symlinks/plugins/shared_preferences_macos/ios"
+  shared_preferences_web:
+    :path: ".symlinks/plugins/shared_preferences_web/ios"
+  shared_preferences_windows:
+    :path: ".symlinks/plugins/shared_preferences_windows/ios"
+  soundpool:
+    :path: ".symlinks/plugins/soundpool/ios"
+  spotify_sdk:
+    :path: ".symlinks/plugins/spotify_sdk/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  stop_watch_timer:
+    :path: ".symlinks/plugins/stop_watch_timer/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+  webview_media:
+    :path: ".symlinks/plugins/webview_media/ios"
+
+SPEC CHECKSUMS:
+  background_fetch: 9e1c6c010f2bafe94108358405b7f2a08d6b5ab1
+  background_locator: d8daad218f2282920654de8a649b430d75c218d9
+  better_player: 2c49e8ac681166b15d062b7594a12902c7e05042
+  connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
+  connectivity_for_web: 2b8584556930d4bd490d82b836bcf45067ce345b
+  connectivity_macos: e2e9731b6b22dda39eb1b128f6969d574460e191
+  countdown_flutter: 423a4cc24614ccb078c2ce4ac6739b1d85cbe98b
+  Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
+  firebase_messaging: 21344b3b3a7d9d325d63a70e3750c0c798fe1e03
+  FirebaseAnalytics: 3bb096873ee0d7fa4b6c70f5e9166b6da413cc7f
+  FirebaseCore: d3a978a3cfa3240bf7e4ba7d137fdf5b22b628ec
+  FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
+  FirebaseInstallations: 466c7b4d1f58fe16707693091da253726a731ed2
+  FirebaseInstanceID: bd3ffc24367f901a43c063b36c640b345a4a5dd1
+  FirebaseMessaging: 5eca4ef173de76253352511aafef774caa1cba2a
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_local_notifications: 9e4738ce2471c5af910d961a6b7eadcf57c50186
+  flutter_plugin_android_lifecycle: dc0b544e129eebb77a6bfb1239d4d1c673a60a35
+  fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  google_maps_flutter: c7f9c73576de1fbe152a227bfd6e6c4ae8088619
+  GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
+  GoogleDataTransport: f56af7caa4ed338dc8e138a5d7c5973e66440833
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  image_picker: 16e5fec1fbc87fd3b297c53e4048521eaf17cd06
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  location_permissions: 4a49d4e5bec5b653643e551ab77963cc99bb0e4a
+  manage_calendar_events: 0338d505ea26cdfd20cd883279bc28afa11eca34
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  path_provider_linux: 4d630dc393e1f20364f3e3b4a2ff41d9674a84e4
+  path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
+  path_provider_windows: a2b81600c677ac1959367280991971cb9a1edb3b
+  pedometer: e27471953eabc0ceed97e4828c0bccf91d179d86
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+  PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  shared_preferences_linux: afefbfe8d921e207f01ede8b60373d9e3b566b78
+  shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
+  shared_preferences_web: 141cce0c3ed1a1c5bf2a0e44f52d31eeb66e5ea9
+  shared_preferences_windows: 36b76d6f54e76ead957e60b49e2f124b4cd3e6ae
+  soundpool: c7f4422ca206e77f8900ed3c4ee6a6ff5a0e38a9
+  spotify_sdk: 6370b847093f4478a2fef3f5053d7f0c665d2b30
+  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
+  stop_watch_timer: e88a936c27ce0792104127124f931365160d2f1e
+  url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
+  wakelock: 0d4a70faf8950410735e3f61fb15d517c8a6efc4
+  webview_media: 33604c2c1805f41bd0c6749c4d7de24b8cb4d81d
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.10.0

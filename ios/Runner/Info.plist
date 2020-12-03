@@ -55,7 +55,11 @@
 	<string>This app needs to be able to access to your photo library</string>
 	<key>NSCalendarsUsageDescription</key>
 	<string>This app needs to be able to access to your calendar</string>
-	<key>NSContactsUsageDescription </key>
+	<key>NSContactsUsageDescription</key>
 	<string>This app needs to be able to access to your contacts</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs to be able to access to your location</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app needs to be able to access to your microphone</string>
 </dict>
 </plist>

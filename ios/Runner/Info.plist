@@ -47,5 +47,15 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSMotionUsageDescription</key>
+	<string>This app needs to be able to access your motion use</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app needs to be able to access to your Apple Music</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs to be able to access to your photo library</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app needs to be able to access to your calendar</string>
+	<key>NSContactsUsageDescription </key>
+	<string>This app needs to be able to access to your contacts</string>
 </dict>
 </plist>

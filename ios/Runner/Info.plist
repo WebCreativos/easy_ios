@@ -41,5 +41,12 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIBackgroundModes</key>
+	<array>
+	  <string>location</string>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>App requires background tracking</string>
+
 </dict>
 </plist>

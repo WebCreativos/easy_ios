@@ -136,7 +136,8 @@ class _CommonFormState extends State<CommonForm> with UserType {
                   var dataForm = this.getData();
                   Provider.of<LoadingProvider>(context, listen: false)
                       .setLoadingState(StageLoading.Loading);
-
+                  AgeDuration edad;
+                  if(_fechaDeNacimiento.fecha!="") {
                   var aux_fecha =
                       _fechaDeNacimiento.fecha.split('/'); //dd/MM/YYYY
 
@@ -145,8 +146,10 @@ class _CommonFormState extends State<CommonForm> with UserType {
 
                   var now = DateTime.now();
 
-                  AgeDuration edad =
+                  edad = 
                       Age.dateDifference(fromDate: birth, toDate: now);
+
+                  }
 
                   var gymPk = _dropdownGimnasios.gym;
 
@@ -159,7 +162,7 @@ class _CommonFormState extends State<CommonForm> with UserType {
                       dataForm['nombre'],
                       dataForm['apellido'],
                       dataForm['celular'],
-                      edad.years,
+                      edad?.years,
                       gymPk: gymPk
 
                   )
@@ -183,7 +186,7 @@ class _CommonFormState extends State<CommonForm> with UserType {
                   checkBox.createState();
                 } else {
                   var textSnack;
-
+                  print(this.validate());
                   (!this.validate())
                       ? textSnack = Text("Rellene todos los campos para continuar")
                       : textSnack = Text("Acuerdo y condiciones no aceptado");
@@ -220,14 +223,12 @@ class _CommonFormState extends State<CommonForm> with UserType {
     String nombre = controllerNombre.text;
     String apellido = controllerApellido.text;
     String celular = controllerCelular.text;
-    String fecha = _fechaDeNacimiento.fecha;
 
     return (pass.isNotEmpty &&
         email.isNotEmpty &&
         nombre.isNotEmpty &&
         apellido.isNotEmpty &&
         celular.isNotEmpty &&
-        fecha.isNotEmpty &&
         dropdown.isSelected());
   }
 

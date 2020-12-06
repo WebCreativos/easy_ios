@@ -302,8 +302,11 @@ class UserRepository with UserType {
       "celular": celular,
       "tipo": tipo,
       "imagen_perfil": image,
-      "info_cliente": {"sexo": sexo, "edad": edad, "gym_socio": gymPk}
+      "info_cliente": {"sexo": sexo, "gym_socio": gymPk}
     };
+    
+    if(edad!=null)
+      dataBody["info_cliente"]["edad"]= edad;
 
     var dio = Dio(BaseOptions(
         contentType: Headers.jsonContentType, responseType: ResponseType.json));

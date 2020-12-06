@@ -58,7 +58,7 @@
 	<key>NSContactsUsageDescription</key>
 	<string>This app needs to be able to access to your contacts</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app needs to be able to access to your location</string>
+	<string>Necesitamos saber tu ubicacion para ubicarte en el mapa y poder guardar tu recorrido mientras caminas.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>This app needs to be able to access to your microphone</string>
 </dict>

@@ -299,12 +299,13 @@ class UserRepository with UserType {
       "password": password,
       "nombre": nombre,
       "apellido": apellido,
-      "celular": celular,
       "tipo": tipo,
       "imagen_perfil": image,
       "info_cliente": {"sexo": sexo, "gym_socio": gymPk}
     };
-    
+    if (celular !=null) {
+      dataBody["celular"]= celular;
+    }
     if(edad!=null)
       dataBody["info_cliente"]["edad"]= edad;
 
@@ -317,6 +318,7 @@ class UserRepository with UserType {
         data: dataBody,
       );
     } catch (e) {
+      print(e.response.data);
       _errorController.setErrorToShow("Email ocupado, intente con otro");
       return Future.error("Email ocupado, intente con otro");
     }

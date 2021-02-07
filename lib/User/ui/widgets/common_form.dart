@@ -71,15 +71,6 @@ class _CommonFormState extends State<CommonForm> with UserType {
               iconData: Icons.account_circle,
             ),
           ),
-          _fechaDeNacimiento,
-          Container(
-            child: TextInput(
-              controller: controllerCelular,
-              hintText: "Celular",
-              inputType: TextInputType.numberWithOptions(decimal: false),
-              iconData: Icons.phone_android,
-            ),
-          ),
           Container(child: _sexos()),
           Container(
             child: _dropdownGimnasios,
@@ -177,11 +168,6 @@ class _CommonFormState extends State<CommonForm> with UserType {
                               listen: false)
                               .setLoadingState(StageLoading.Error));
 
-                  controllerPassword.clear();
-                  controllerEmail.clear();
-                  controllerNombre.clear();
-                  controllerApellido.clear();
-                  controllerCelular.clear();
 
                   checkBox.createState();
                 } else {
@@ -211,25 +197,23 @@ class _CommonFormState extends State<CommonForm> with UserType {
           ["Seleccionar sexo", "Femenino", "Masculino", "Otro"]),
       color: Color(0xff5937B2),
       textStyle: TextStyle(color: Colors.white),
-      value: "Seleccionar sexo",
+      value: dropdown.getValue(),
     );
 
     return dropdown;
   }
 
   bool validate() {
+    print(dropdown.getValue());
     String pass = controllerPassword.text;
     String email = controllerEmail.text;
     String nombre = controllerNombre.text;
     String apellido = controllerApellido.text;
-    String celular = controllerCelular.text;
-
     return (pass.isNotEmpty &&
         email.isNotEmpty &&
         nombre.isNotEmpty &&
         apellido.isNotEmpty &&
-        celular.isNotEmpty &&
-        dropdown.isSelected());
+        (dropdown.getValue()!="" && dropdown.getValue() !="Seleccionar sexo"));
   }
 
   Map<String, dynamic> getData() {
@@ -237,14 +221,12 @@ class _CommonFormState extends State<CommonForm> with UserType {
     String email = controllerEmail.text;
     String nombre = controllerNombre.text;
     String apellido = controllerApellido.text;
-    String celular = controllerCelular.text;
 
     return {
       'password': pass,
       'email': email,
       'nombre': nombre,
       'apellido': apellido,
-      'celular': celular,
       'sexo': dropdown.getValue()
     };
   }
